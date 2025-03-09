@@ -1,8 +1,9 @@
+// Copyright 2025 UNN-CS Team
+
 #include "tasks.h"
 #include "circle.h"
 
-double calculatEarthandRope()
-{
+double calculatEarthandRope() {
   Circle earth(6378.1 * 1000);
   double originalFerence = earth.getFerence();
 
@@ -16,8 +17,7 @@ double calculatEarthandRope()
   return gap;
 }
 
-std::vector<double> calculatePool()
-{
+std::vector<double> calculatePool() {
   double poolRadius = 3.0;
   double walkwayWidth = 1.0;
 
