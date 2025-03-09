@@ -1,5 +1,6 @@
 // Copyright 2025 UNN-CS Team
 
+#include <vector>
 #include "tasks.h"
 #include "circle.h"
 
